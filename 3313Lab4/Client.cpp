@@ -53,12 +53,21 @@ int main(void)
 
 	// Create our socket
 	Socket socket("127.0.0.1", 3000);
+	std::cout << "connect socket" << std::endl;
+
 	ClientThread clientThread(socket);
+	std::cout << "client thread" << std::endl;
 	while(1)
 	{
+		std::cout << "while loop" << std::endl;
 		sleep(1);
+		std::cout << "sleep" << std::endl;
+
 	}
+	std::cout << "finsihed loop" << std::endl;
+
 	socket.Close();
+	std::cout << "socket closed" << std::endl;
 
 	return 0;
 }
