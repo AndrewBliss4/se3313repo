@@ -208,7 +208,7 @@ public:
 
 int main(void) {
 	//port info
-    int port = 3000;
+    int port = 3000; //original for this or client was 3005!!!!! was changed so we could try running client :/
 	// Admin sets value of number of chat rooms for the server.
     int rooms = 5;
 

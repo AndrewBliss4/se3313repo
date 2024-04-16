@@ -59,9 +59,9 @@ int main(void)
 	std::cout << "client thread" << std::endl;
 	while(1)
 	{
-		std::cout << "while loop" << std::endl;
+		//std::cout << "while loop" << std::endl;
 		sleep(1);
-		std::cout << "sleep" << std::endl;
+		//std::cout << "sleep" << std::endl;
 
 	}
 	std::cout << "finsihed loop" << std::endl;
